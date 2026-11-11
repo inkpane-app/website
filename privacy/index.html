@@ -12,7 +12,7 @@
 <ul>
 <li>No account, no cloud library, no analytics, no advertising, no tracking. We don’t sell data.</li>
 <li>Captures, recordings, OCR text and the library database never leave your Mac unless you send them somewhere yourself, or an AI agent or AI provider you set up receives them.</li>
-<li>The app contacts our download server to check for updates, and Lemon Squeezy to check a license once you have one. Nothing else is sent to us.</li>
+<li>The app contacts our download server to check for updates, and, once you have a license, our license service to check it. Nothing else is sent to us.</li>
 </ul>
 <h2 id="what-stays-on-your-mac">What stays on your Mac</h2>
 <p>All of the following is stored only on your Mac, in your user folder. We have no copy of any of it.</p>
@@ -28,8 +28,8 @@
 <p>The app asks <code>downloads.inkpane.app</code> whether a new version is available. It checks automatically if you allow it (Settings → General), or when you choose Check for Updates. During the free Pro period, the app also reads the current date from the same server, so the end of the offer doesn’t depend on your Mac’s clock alone.</p>
 <p>These requests carry your IP address and the app’s name and version, as any web request does. The server is hosted on Cloudflare, which may keep short-lived logs under its own <a href="https://www.cloudflare.com/privacypolicy/">privacy policy</a>. We look only at totals, such as how many update checks or downloads there were. We don’t build profiles. No system information is sent.</p>
 <h3 id="licenses">Licenses</h3>
-<p>Once licenses are on sale, purchases go through <strong>Lemon Squeezy</strong>, which acts as the merchant of record. Lemon Squeezy handles your payment, invoice, email address and taxes under its own <a href="https://www.lemonsqueezy.com/privacy">privacy policy</a>. We receive the order details we need to support you, such as your email address, the product and the license key, but never your card details.</p>
-<p>When you activate a key, the app sends the key and your Mac’s name (as set in System Settings → General → Sharing) to Lemon Squeezy. It then checks the license about once a day, and frees the activation when you deactivate this Mac.</p>
+<p>Licenses aren’t on sale yet. When they are, purchases will go through a payment provider acting as the merchant of record, which will handle your payment, invoice, email address and taxes under its own privacy policy. We’ll name it here, and publish the purchase terms, when licenses go on sale. We’ll receive the order details we need to support you, such as your email address, the product and the license key, but never your card details.</p>
+<p>When you activate a key, the app will send the key and your Mac’s name (as set in System Settings → General → Sharing) to the license service. It will then check the license about once a day, and free the activation when you deactivate this Mac.</p>
 <h3 id="ai-features-you-turn-on">AI features you turn on</h3>
 <p>AI quick actions, and translation with an AI service or DeepL, are off until you add your own API key. When you use one, the app sends the request <strong>directly from your Mac to the provider you chose</strong>: Anthropic, OpenAI or another OpenAI-compatible service, or DeepL. It never goes through us.</p>
 <p>A request can include the image (unless you turn images off), the text recognised in it, the app and window it came from, the page address, and your prompt. If you turn them on in Settings → Privacy, email addresses and phone numbers are masked first. The provider’s own terms and privacy policy apply to what it receives.</p>
@@ -52,7 +52,7 @@
 <h2 id="the-website">The website</h2>
 <p>inkpane.app is hosted on GitHub Pages. It uses no cookies, no analytics and no third-party scripts or fonts. Your choice of light or dark mode is kept in your browser’s local storage and never sent. GitHub and, for downloads, Cloudflare may log technical data such as IP addresses under their own policies.</p>
 <h2 id="sharing">Sharing</h2>
-<p>We don’t sell, rent or share personal information. Data reaches others only as described above: the AI providers and agents you choose, Lemon Squeezy for purchases, and our hosting providers.</p>
+<p>We don’t sell, rent or share personal information. Data reaches others only as described above: the AI providers and agents you choose, the payment provider for purchases, and our hosting providers.</p>
 <h2 id="your-rights">Your rights</h2>
 <p>Most of your data is on your Mac and under your control, so you can view, export or delete it at any time. For anything we or our providers hold about you, such as purchase records or emails, write to <a href="mailto:support@inkpane.app">support@inkpane.app</a>. You can ask to access it, correct it or delete it, and we’ll answer within 30 days.</p>
 <p>These rights come from the New Zealand Privacy Act 2020 and, where they apply to you, laws such as the GDPR. You can also complain to the New Zealand Office of the Privacy Commissioner or your local data protection authority.</p>
